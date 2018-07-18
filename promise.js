@@ -1,9 +1,5 @@
 const queue = []
 
-function Link() {
-
-}
-
 function Promise() {
 	setTimeout(() => {
 		let prev
@@ -29,7 +25,7 @@ Promise.prototype = { queue }
 
 Promise.prototype.then = function(callback) {
 	queue.push({ callback, catch: false })
-	return this
+	return thi:s
 }
 
 Promise.prototype.catch = function(callback) {

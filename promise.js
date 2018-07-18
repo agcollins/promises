@@ -25,7 +25,7 @@ Promise.prototype = { queue }
 
 Promise.prototype.then = function(callback) {
 	queue.push({ callback, catch: false })
-	return thi:s
+	return this
 }
 
 Promise.prototype.catch = function(callback) {
